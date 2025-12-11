@@ -1,57 +1,80 @@
-⭐ README.md (Short & Professional)
-🌦 Weather Forecasting Project
+🌦️ Weather Prediction Project
 
-A Django-based web application that predicts future temperature and humidity using machine learning models. The system fetches real-time weather data and generates 5-step future predictions.
+📌 Overview
+
+The Weather Prediction Project uses Machine Learning to analyze historical weather data and predict future temperature and humidity values.
+This web-based system is built using Django, Python, Scikit-Learn, NumPy, and Pandas.
+
+The model forecasts the next few days' weather using trained Random Forest algorithms.
+Users can simply open the web interface, enter the required details, and view predictions in real time.
 
 🚀 Features
 
-Real-time weather data fetching
+Machine Learning–based Temperature & Humidity Prediction
 
-Temperature & humidity prediction using Random Forest
+RandomForest Regression Model for accurate results
 
-User-friendly web interface
+User-friendly Django Web Interface
 
-Auto-updating weather dashboard
+Real-time Weather Forecasting
 
-🛠 Technologies Used
+Data Processing, Cleaning & Feature Engineering Included
 
-Python
+Supports Future Value Prediction Using Iterative Forecasting
 
-Django
+🧠 Machine Learning Workflow
 
-Scikit-learn
+Load and clean dataset
 
-HTML / CSS
+Encode labels using LabelEncoder
 
-REST API
+Split into training & testing sets
 
-📊 Machine Learning
+Train RandomForest model
 
-Random Forest Regression Model
+Evaluate using Mean Squared Error (MSE)
 
-Uses past weather patterns for forecasting
+Predict future values using iterative prediction logic
 
-5 future predictions generated dynamically
+🛠️ Tech Stack
 
-🗂 Project Structure
+Frontend: HTML, CSS
 
-manage.py – Django entry file
+Backend: Django (Python)
 
-WeatherProject/ – main project settings
+ML Libraries: Pandas, NumPy, Scikit-Learn
 
-forecast/ – ML logic, views, templates
+Model: RandomForestRegressor
 
-requirements.txt – all dependencies
+API Integration: Weather API (if included)
 
-▶ How to Run
+**🔧 How to Run the Project**
+
+Clone the repository
+
+git clone https://github.com/naitiiik31/Weather_Prediction_Project
+
+
+Install dependencies
+
 pip install -r requirements.txt
+
+
+Run Django server
+
 python manage.py runserver
 
-📌 Note
 
-I have attached the photo.
+Open your browser and visit:
+
+http://127.0.0.1:8000/
+
+📸 Screenshots
+
+I have attached the screenshots of my website at the end of this README.
+
+
 
 <img width="1350" height="814" alt="image" src="https://github.com/user-attachments/assets/9f8d8990-fd8c-4c98-a071-7ca451f99e63" />
 <img width="1359" height="801" alt="image" src="https://github.com/user-attachments/assets/05059daa-3b65-44f8-815a-d80a012bbd3f" />
 <img width="1338" height="796" alt="image" src="https://github.com/user-attachments/assets/18c4eda5-bf84-48ef-b607-0a7644441f26" />
-
