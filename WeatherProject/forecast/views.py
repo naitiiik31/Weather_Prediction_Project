@@ -99,7 +99,7 @@ def weather_view():
     city=input("Enter City Name:")
     current_weather=get_current_weather(city)
 
-    csv_path=os.path.join("C:\\Users\\Naitik\\Desktop\\ML_Projects\\Weather_Prediction\\weather.csv")
+    csv_path = os.path.join(settings.BASE_DIR, 'weather.csv')
     historical_data=read_historical_data(csv_path)
 
     X,y,le=prepare_data(historical_data)
@@ -316,5 +316,6 @@ def weather_view(request):
         }    
 
         return render(request,'weather.html',context)
+
 
     return render(request,'weather.html')
