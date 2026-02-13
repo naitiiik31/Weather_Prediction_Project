@@ -200,7 +200,9 @@ def weather_view(request):
         city=request.POST.get('city')
         current_weather=get_current_weather(city)
 
-        historical_data=read_historical_data("C:\\Users\\Naitik\\Desktop\\ML_Projects\\Weather_Prediction\\weather.csv")
+        # In views.py
+        csv_path = os.path.join(settings.BASE_DIR, 'weather.csv')
+        historical_data = read_historical_data(csv_path)
 
         X,y,le=prepare_data(historical_data)
 
