@@ -114,8 +114,11 @@ USE_I18N = True
 
 USE_TZ = True
 
+# At the bottom of WeatherProject/WeatherProject/settings.py
+
+import os
+STATIC_URL = "static/"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
-
-STATIC_URL = "static/"
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
