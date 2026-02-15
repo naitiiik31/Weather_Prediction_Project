@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-
+from django.conf import settings
 import pandas as pd
 import os
 import requests
@@ -319,3 +319,4 @@ def weather_view(request):
 
 
     return render(request,'weather.html')
+
