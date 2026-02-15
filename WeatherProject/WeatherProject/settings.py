@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-&22c$3vy)@i=@=i0nz1p-%x^#5i4=io)i80y#_k@xnbzv1mbam
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'weather-prediction-project-3.onrender.com', 
+    'weather-prediction-project-5.onrender.com', 
     '.onrender.com', 
     'localhost', 
     '127.0.0.1'
