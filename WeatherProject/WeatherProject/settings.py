@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-&22c$3vy)@i=@=i0nz1p-%x^#5i4=io)i80y#_k@xnbzv1mbam
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'weather-prediction-project-9.onrender.com', 
+    'weather-prediction-project-10.onrender.com', 
     '.onrender.com', 
     'localhost', 
     '127.0.0.1'
@@ -77,7 +77,7 @@ WSGI_APPLICATION = "WeatherProject.wsgi.application"
 # WeatherProject/WeatherProject/settings.py
 
 # Add your Render domain here
-ALLOWED_HOSTS = ['weather-prediction-project-9.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['weather-prediction-project-10.onrender.com', 'localhost', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
