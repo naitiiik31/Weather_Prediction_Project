@@ -76,7 +76,7 @@ WSGI_APPLICATION = "WeatherProject.wsgi.application"
 # WeatherProject/WeatherProject/settings.py
 
 # Add your Render domain here
-ALLOWED_HOSTS = ['weather-prediction-project-2.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['weather-prediction-project-6.onrender.com', 'localhost', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
